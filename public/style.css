@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+}
+section#home{
+    margin: 50px;
+}
+
+.form-group{
+    margin-bottom: 3px;
+}
+.card p{
+    margin-bottom: 0;
+    font-size: 13px;
+    width: 100%;
+}
+.card button{
+    margin-top: 3px;
+}
+#home img{
+    width: 100px;
+    border: 3px solid #B0E0E6;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.intro{
+    text-align: center;
+}
+section#course{
+    margin: 50px;   
+}
+
+#course form{
+    text-align: center;
+}
+#course .form-group{
+    justify-content: center;
+}
+
+#course .card{
+    margin-left: 20px;
+}
+#course h6{
+    margin-top: 10px;
+}
+#course .btn{
+    text-align: center;
+}
+#course button{
+    margin-bottom: 10px;
+    border-radius: 200px;
+    width: 130px;
+}
+#course .students h4,h5{
+    margin-top: 70px;
+}
+/* #course .students{
+    margin-top: 50px;
+} */
+.students .row{
+    margin-left: 100px;
+}
+.students .card{
+    padding: 15px;
+    margin-top: 40px;
+}
+.staffs .row{
+    margin-left: 100px;
+}
+.staffs .card{
+    padding: 15px;
+    margin-top: 40px;
+}
+#course .staffs h4,h5{
+    margin-top: 70px;
+}
+#marsdifferent{
+    margin: 50px;
+}
+#marsdifferent i{
+    margin: 50px;
+    font-size: 3em;
+    background-color: #ECECEC;
+    border-radius: 500px;
+    padding: 50px;
+}
+section#batches{
+    margin-top: 100px;
+}
+#batches ul>li{
+   list-style-type: square;
+   margin-left: 200px;
+   padding: 5px;
+}
+#batches button{
+    margin-left: 200px;
+    border-radius: 200px;
+}

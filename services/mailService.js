@@ -63,17 +63,17 @@ function sendmailHr(data)
     {
         from: 'joshcandyjosh@gmail.com', // Sender address
         to: ["1217santhosh@gmail.com"] ,// List of recipients
-        subject: `New Registration: ${data.name} for ${data.stream}`, // Subject line
+        subject: `New Registration: ${data.name} for ${data.course}`, // Subject line
         text: `
         Dear sir,
         
-        We have received a new registration for our ${data.stream} coaching program.Below are the details:
+        We have received a new registration for our ${data.course} coaching program.Below are the details:
 
         Student Name : ${data.name}
-        class : ${data.class}
-        Course Registered : ${data.stream}
+        class : ${data.standard} th standard
+        Course Registered : ${data.course}
         mobile : ${data.mobile}
-        duration : ${data.duration}
+        duration : ${data.duration} months
 
         Thank you for your attention to this matter.
         Best regards, ${data.name}`
