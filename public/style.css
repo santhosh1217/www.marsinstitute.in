@@ -28,12 +28,16 @@ section#home{
 .card button{
     margin-top: 3px;
 }
-#home img{
+#home .logo img{
     width: 100px;
     border: 3px solid #B0E0E6;
     margin-bottom: 15px;
     padding: 5px;
     border-radius: 10px;
+}
+#home .std img{
+   max-width: 70%; 
+   height: 300px;
 }
 .intro{
     text-align: center;
@@ -69,8 +73,16 @@ section#course{
 /* #course .students{
     margin-top: 50px;
 } */
+.course .row{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
 .students .row{
+    /* display: flex;
+    justify-content: space-evenly; */
     margin-left: 100px;
+    
 }
 .students .card{
     padding: 15px;
@@ -79,18 +91,24 @@ section#course{
 .staffs .row{
     margin-left: 100px;
 }
-.staffs .card{
-    padding: 15px;
-    margin-top: 40px;
-}
 #course .staffs h4,h5{
     margin-top: 70px;
 }
 #marsdifferent{
     margin: 50px;
 }
+#marsdifferent .icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.icons .icon{
+    width: calc(33.33% - 20px);
+    margin-top: 50px;
+}
 #marsdifferent i{
-    margin: 50px;
+    margin: 10px;
     font-size: 3em;
     background-color: #ECECEC;
     border-radius: 500px;
@@ -98,6 +116,11 @@ section#course{
 }
 section#batches{
     margin-top: 100px;
+}
+#batches .endimg img{
+    max-width: 70%;
+    margin-left: 150px;
+    margin-top: 20px;
 }
 #batches ul>li{
    list-style-type: square;
@@ -108,3 +131,11 @@ section#batches{
     margin-left: 200px;
     border-radius: 200px;
 }
+
+/* For mobileview */
+@media screen and (max-width:767px){
+    .icons .icon{
+        width: calc(50% -20px);
+    }
+}
+
