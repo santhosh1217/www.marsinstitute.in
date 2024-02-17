@@ -17,20 +17,48 @@ section#home{
     margin: 50px;
 }
 
-.form-group{
-    margin-bottom: 3px;
+#home .logo img{
+    max-width: 100%;
 }
-.card p{
+#home p{
+    font-size: 20px;
+}
+#home form{
+    margin-top: 20px;
+}
+ #home .form-group{
+    margin-bottom: 5px;
+}
+#home .form-group .form-control,.form-select{
+    background-color: #d1d1d1 !important;
+}
+#home .form-group input:focus{
+    border-color: none !important;
+}
+/* #home .form-group option{
+    margin: 50px;
+    padding: 10px;
+} */
+#home .card{
+    border: none !important;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px !important;
+}
+#home .card p{
     margin-bottom: 0;
     font-size: 13px;
     width: 100%;
 }
-.card button{
+#home .card h4{
+    color:#0000CD;
+}
+#home .card button{
     margin-top: 3px;
+    background-color:#0000CD;
 }
 #home .logo img{
     width: 100px;
-    border: 3px solid #B0E0E6;
+    border: 2px solid black;
     margin-bottom: 15px;
     padding: 5px;
     border-radius: 10px;
@@ -54,7 +82,10 @@ section#course{
 }
 
 #course .card{
-    margin-left: 20px;
+    margin-left: 50px;
+    border: none !important;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px !important;
 }
 #course h6{
     margin-top: 10px;
@@ -66,36 +97,72 @@ section#course{
     margin-bottom: 10px;
     border-radius: 200px;
     width: 130px;
+    background-color: #0000CD;
 }
 #course .students h4,h5{
     margin-top: 70px;
 }
+.course .card h6{
+    color: #0000CD;
+    font-weight: bold;
+}
 /* #course .students{
     margin-top: 50px;
 } */
-.course .row{
+.course .course{
     display: flex;
     justify-content: space-evenly;
-    
+    margin-top: 100px;
+    margin-right: 100px;
 }
+#course .students{
+    margin-right: 40px;
+}
+
+
 .students .row{
     /* display: flex;
     justify-content: space-evenly; */
     margin-left: 100px;
     
 }
+.students h4{
+    color: #0000CD;
+    font-weight: bold;
+   
+}
+
 .students .card{
     padding: 15px;
     margin-top: 40px;
+    
 }
-.staffs .row{
-    margin-left: 100px;
+
+.students span{
+    color: #0000CD;
+   
+}
+.staffs .card-body h5{
+    color: #0000CD;
+    font-weight: bold;
+}
+.staffs .intro{
+    margin-bottom: 50px;
+}
+.staffs .intro h4{
+    color: #0000CD;
+    font-weight: bold !important;
 }
 #course .staffs h4,h5{
     margin-top: 70px;
 }
 #marsdifferent{
     margin: 50px;
+}
+#marsdifferent h3{
+    margin-top: 100px;
+    color: #0000CD;
+    font-weight: bold;
 }
 #marsdifferent .icons{
     display: flex;
@@ -117,6 +184,10 @@ section#course{
 section#batches{
     margin-top: 100px;
 }
+#batches h3{
+    color: #0000CD;
+    font-weight: bold;
+}
 #batches .endimg img{
     max-width: 70%;
     margin-left: 150px;
@@ -130,12 +201,28 @@ section#batches{
 #batches button{
     margin-left: 200px;
     border-radius: 200px;
+    background-color: #0000CD;
 }
 
 /* For mobileview */
 @media screen and (max-width:767px){
-    .icons .icon{
-        width: calc(50% -20px);
+    /* #home .logo{
+       margin-top: 25px;
+       margin-left: 120px;
     }
+    #home .intro h2,p{
+        margin-left: 120px;  
+    }
+    #home .std{
+        margin-left: 120px;
+    }
+    #home .card{
+        margin-top: 20px;
+        margin-left: 150px;
+    } */
+    /* .icons .icon{
+        width: calc(50% -20px);
+    } */
+  
 }
 
