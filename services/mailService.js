@@ -5,15 +5,16 @@ let transporter = nodemailer.createTransport(
     service: 'Gmail',
     auth: 
     {
-        user: 'joshcandyjosh@gmail.com', // Your Gmail email address
-        pass: 'hujx skvj dvcc sqwm' // Your Gmail password
+        user: 'indimano321@gmail.com', // Your Gmail email address
+        pass: 'zaaf edof uodq ykme'
+ 
     }
 });
 function sendmailStudent(data) 
 {
     let mailOptions =
     {
-        from: 'joshcandyjosh@gmail.com', // Sender address
+        from: 'indimano321@gmail.com', // Sender address
         to: [data.mail] ,// List of recipients
         subject: 'Welcome to IIT Coaching at Mars Institute!', // Subject line
         text: `
@@ -61,7 +62,7 @@ function sendmailHr(data)
 {
     let mailOptions =
     {
-        from: 'joshcandyjosh@gmail.com', // Sender address
+        from: 'indimano321@gmail.com', // Sender address
         to: ["1217santhosh@gmail.com"] ,// List of recipients
         subject: `New Registration: ${data.name} for ${data.course}`, // Subject line
         text: `
@@ -70,6 +71,7 @@ function sendmailHr(data)
         We have received a new registration for our ${data.course} coaching program.Below are the details:
 
         Student Name : ${data.name}
+        Board : ${data.boardtype}
         class : ${data.standard} th standard
         Course Registered : ${data.course}
         mobile : ${data.mobile}
