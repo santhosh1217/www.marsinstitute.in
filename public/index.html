@@ -25,93 +25,117 @@
             </div>
             <div class="card col-lg-6 col-md-6 col-12" style="width: 25rem;">
                 <div class="card-body">
-                  <h4 class="card-title text-center"><b>REQUEST A CALL BACK</b></h4>
-                  <h6 class="text-center">(SESSION 2024-25)</h6>
-                  <form action="api/register" method="post">
-                    <div class="form-group row">
-                        <label for="" class="col-sm-4 col-form-label">Name</label>
-                        <div class=" col-sm-8">
-                            <input type="text" name="name" class="form-control" placeholder="Name" required>
-                        </div> 
-                    </div>
-                    <div class="form-group row">
-                        <label for="" class="col-sm-4 col-form-label">Email</label>
-                        <div class=" col-sm-8">
-                            <input type="email" name="mail" class="form-control" placeholder="Email Id" required>
-                        </div> 
-                    </div>
-                    <div class="form-group row">
-                        <label for="" class="col-sm-4 col-form-label">Mobile</label>
-                        <div class=" col-sm-8">
-                            <input type="text" name="mobile" class="form-control" placeholder="Mobile No" required>
-                        </div> 
-                    </div>
-                    <div class="form-group row">
-                        <label for="" class="col-sm-4 col-form-label">Course</label>
-                        <div class=" col-sm-8">
-                               <select  id="" class="form-select" name="course" required>
-                                <option value="Selected">Select Class</option>
-                                <option value="IIT">IIT</option>
-                                <option value="JEE">JEE</option>
-                                <option value="NEET">NEET</option>
-                            </select>
-                        </div> 
-                    </div>
-                    <div class="form-group row">
-                        <label for="" class="col-sm-4 col-form-label">Duration</label>
-                        <div class=" col-sm-8">
-                            <select  id="" class="form-select" name="duration" required>
-                                <option>Course Duration</option>
-                                <option value="3">3 months</option>
-                                <option value="6">6 months</option>
-                            </select>
-                        </div> 
-                    </div>
-                    <div class="form-group row">
-                        <label for="" class="col-sm-4 col-form-label">Class</label>
-                        <div class=" col-sm-8">
-                            <select name="standard" id="" class="form-select" name="standard" required>
-                                <option>Select Class</option>
-                                <option value="9">9<sup>th</sup></option>
-                                <option value="10">10<sup>th</sup></option>
-                                <option value="11">11<sup>th</sup></option>
-                                <option value="12">12<sup>th</sup></option>
-                            </select>
-                        </div> 
-                    </div>
-                    <div class="form-group row">
-                        <label for="" class="col-sm-4 col-form-label">Study <br>Mode</label>
-                        <div class=" col-sm-8">
-                            <select name="studymode" id="" class="form-select" name="studymode" required>
-                                <option value="Selected">Select Study Mode</option>
-                                <option value="online">Online</option>
-                                <!-- <option value="1">Classroom program(Offline)</option>
-                                <option value="2">MARS Digital(Online)</option> -->
-                            </select>
-                        </div> 
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-sm-12">
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" required>
-                                <p>I agree to Terms & Conditions</p>
+                    <h4 class="card-title text-center"><b>REQUEST A CALL BACK</b></h4>
+                    <h6 class="text-center">(SESSION 2024-25)</h6>
+                    <form action="api/register" method="post">
+                        <div class="form-group row">
+                            <label for="" class="col-sm-4 col-form-label">Name</label>
+                            <div class="col-sm-8">
+                                <input type="text" name="name" class="form-control" placeholder="Name" required>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-sm-12">
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" required>
-                                <p>I authorize MARS Carrer Institute Pvt. Ltd. to send me regular updates via Phone Calls,WhatsApp,SMS,Robocalls(Automated Calls),Email,or on Postal Addresses</p>
+            
+                        <div class="form-group row">
+                            <label for="" class="col-sm-4 col-form-label">Email</label>
+                            <div class="col-sm-8">
+                                <input type="email" name="mail" class="form-control" placeholder="Email Id" required>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <button class="btn btn-primary" onclick="alert(`form submitted successfully`)" type="submit">SUBMIT</button>
-                    </div>
-                  </form>
+            
+                        <div class="form-group row">
+                            <label for="" class="col-sm-4 col-form-label">Mobile</label>
+                            <div class="col-sm-8">
+                                <input type="text" name="mobile" class="form-control" placeholder="Mobile No" required>
+                            </div>
+                        </div>
+            
+                        <div class="form-group row">
+                            <label for="" class="col-sm-4 col-form-label">Course</label>
+                            <div class="col-sm-8">
+                                <select id="" class="form-select" name="course" required>
+                                    <option value="Selected">Select Class</option>
+                                    <option value="IIT">IIT</option>
+                                    <option value="JEE">JEE</option>
+                                    <option value="NEET">NEET</option>
+                                </select>
+                            </div>
+                        </div>
+            
+                        <div class="form-group row">
+                            <label for="" class="col-sm-4 col-form-label">Duration</label>
+                            <div class="col-sm-8">
+                                <select id="" class="form-select" name="duration" required>
+                                    <option>Course Duration</option>
+                                    <option value="3">3 months</option>
+                                    <option value="6">6 months</option>
+                                </select>
+                            </div>
+                        </div>
+            
+                        <div class="form-group row">
+                            <label for="boardSelection" class="col-sm-4 col-form-label">Select Board:</label>
+                            <div class="col-sm-8">
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" id="cbseRadio" name="board" value="cbse">
+                                    <label class="form-check-label" for="cbseRadio">CBSE</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" id="stateBoardRadio" name="board" value="state">
+                                    <label class="form-check-label" for="stateBoardRadio">State Board</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="form-group row">
+                            <label for="" class="col-sm-4 col-form-label">Class</label>
+                            <div class="col-sm-8">
+                                <select name="standard" class="form-select" required>
+                                    <option>Select Class</option>
+                                    <option value="9">9<sup>th</sup></option>
+                                    <option value="10">10<sup>th</sup></option>
+                                    <option value="11">11<sup>th</sup></option>
+                                    <option value="12">12<sup>th</sup></option>
+                                </select>
+                            </div>
+                        </div>
+            
+                        <div class="form-group row">
+                            <label for="" class="col-sm-4 col-form-label">Study <br>Mode</label>
+                            <div class="col-sm-8">
+                                <select name="studymode" class="form-select" required>
+                                    <option value="Selected">Select Study Mode</option>
+                                    <option value="online">Online</option>
+                                </select>
+                            </div>
+                        </div>
+            
+                        <div class="form-group row">
+                            <div class="col-sm-8 offset-sm-4">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" required>
+                                    <p class="form-check-label">I agree to Terms & Conditions</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="form-group row">
+                            <div class="col-sm-8 offset-sm-4">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" required>
+                                    <p class="form-check-label">I authorize MARS Carrer Institute Pvt. Ltd. to send me regular updates via Phone Calls, WhatsApp, SMS, Robocalls (Automated Calls), Email, or on Postal Addresses</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="form-group row">
+                            <div class="col-sm-12 text-center">
+                                <button class="btn btn-primary" type="submit" onclick="alert('Form submitted successfully')">SUBMIT</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-              </div>
+            </div>
+            
         </div>
     </section>
     <section id="course">
